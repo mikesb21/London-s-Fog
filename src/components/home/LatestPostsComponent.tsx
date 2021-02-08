@@ -49,7 +49,7 @@ const posts = [
 
 const LatestPostsComponent = () => {
   return (
-    <div className="container card-columns">
+    <div className="container-posts card-columns">
       {posts.map((post) => {
         return (
           <PostCardComponent

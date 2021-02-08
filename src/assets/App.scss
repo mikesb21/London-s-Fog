@@ -1,4 +1,9 @@
-@import "/src/assets/index.scss";
+$primary-text: #edf5e1;
+$secondary-text: #05386b;
+
+$primary-background: #5cdb95;
+$secondary-background: #379683;
+$third-background: #8ee4af;
 
 .App {
   text-align: center;
@@ -26,16 +31,17 @@
 
 .third-background {
   background-color: $third-background;
-  .grad {
-    background-image: linear-gradient(
-      to bottom,
-      $third-background,
-      rgba(255, 0, 0, 0)
-    );
-  }
+}
+
+.forth-background {
+  background-color: $primary-text;
 }
 
 .container-carousel {
+  padding: 2%;
+}
+
+.container-posts {
   padding: 2%;
 }
 
