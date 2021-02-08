@@ -1,3 +1,5 @@
+$primary-color: steelblue;
+
 .App {
   text-align: center;
 }
@@ -5,6 +7,10 @@
 .container-carousel {
   background-color: steelblue;
   padding: 2%;
+}
+
+.card-small {
+  width: 18rem;
 }
 
 .home-page-carousel {

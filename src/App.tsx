@@ -6,11 +6,11 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./views/Home";
 
 // Components
-import Navbar from "./components/NavbarComponent";
-import Footer from "./components/FooterComponent";
+import Navbar from "./components/common/NavbarComponent";
+import Footer from "./components/common/FooterComponent";
 
 // Assets
-import "./assets/App.css";
+import "./assets/App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
