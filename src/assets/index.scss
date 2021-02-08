@@ -1,0 +1,25 @@
+$primary-text: #edf5e1;
+$secondary-text: #05386b;
+
+$primary-background: #5cdb95;
+$secondary-background: #379683;
+$third-background: #8ee4af;
+
+@font-face {
+  font-family: "YuseiMagic";
+  src: local("YuseiMagic"),
+    url(../assets/YuseiMagic-Regular.ttf) format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: YuseiMagic !important;
+  color: $secondary-text !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

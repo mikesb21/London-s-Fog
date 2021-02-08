@@ -1,6 +1,12 @@
+// React
 import React from "react";
 import ReactDOM from "react-dom";
-import "./assets/index.css";
+
+// Assets
+import "./assets/index.scss";
+import "./assets/YuseiMagic-Regular.ttf";
+
+// Components
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 

@@ -1,0 +1,70 @@
+$primary-text: #edf5e1;
+$secondary-text: #05386b;
+
+$primary-background: #5cdb95;
+$secondary-background: #379683;
+$third-background: #8ee4af;
+
+.App {
+  text-align: center;
+}
+
+.app-pad {
+  padding-bottom: 5%;
+}
+
+.primary-text {
+  color: $primary-text;
+}
+
+.secondary-text {
+  color: $secondary-text;
+}
+
+.primary-background {
+  background-color: $primary-background;
+}
+
+.secondary-background {
+  background-color: $secondary-background;
+}
+
+.third-background {
+  background-color: $third-background;
+}
+
+.forth-background {
+  background-color: $primary-text;
+}
+
+.container-carousel {
+  padding: 2%;
+}
+
+.container-posts {
+  padding: 2%;
+}
+
+.card-small {
+  width: 18rem;
+}
+
+.home-page-carousel {
+  width: 480px;
+  height: 270px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+
+.remove-link-decorations {
+  text-decoration: none;
+}
