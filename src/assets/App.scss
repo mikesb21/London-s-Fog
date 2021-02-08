@@ -1,11 +1,41 @@
-$primary-color: steelblue;
+@import "/src/assets/index.scss";
 
 .App {
   text-align: center;
 }
 
+.app-pad {
+  padding-bottom: 5%;
+}
+
+.primary-text {
+  color: $primary-text;
+}
+
+.secondary-text {
+  color: $secondary-text;
+}
+
+.primary-background {
+  background-color: $primary-background;
+}
+
+.secondary-background {
+  background-color: $secondary-background;
+}
+
+.third-background {
+  background-color: $third-background;
+  .grad {
+    background-image: linear-gradient(
+      to bottom,
+      $third-background,
+      rgba(255, 0, 0, 0)
+    );
+  }
+}
+
 .container-carousel {
-  background-color: steelblue;
   padding: 2%;
 }
 

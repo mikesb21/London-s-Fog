@@ -6,7 +6,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 const CarouselComponent = () => {
   return (
-    <div className="container-carousel">
+    <div className="container-carousel third-background grad">
       <Carousel interval={3500} className="home-page-carousel">
         <Carousel.Item>
           <img

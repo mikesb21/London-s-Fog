@@ -16,7 +16,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App primary-background app-pad">
         <Navbar />
         <Switch>
           <Route path="/">
