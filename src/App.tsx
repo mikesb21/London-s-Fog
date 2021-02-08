@@ -6,7 +6,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./views/Home";
 
 // Components
-import Navbar from "./components/Navbar";
+import Navbar from "./components/NavbarComponent";
+import Footer from "./components/FooterComponent";
 
 // Assets
 import "./assets/App.css";
@@ -17,12 +18,13 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
+        <Switch>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+        <Footer />
       </div>
-      <Switch>
-        <Route path="/">
-          <Home />
-        </Route>
-      </Switch>
     </Router>
   );
 }

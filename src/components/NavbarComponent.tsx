@@ -2,7 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const NavbarComponent = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -37,6 +37,13 @@ const Navbar = () => {
                 </Link>
               </li>
             </ul>
+            <ul className="navbar-nav me-auto ml-auto mb-2 mb-lg-0">
+              <li>
+                <Link className="btn btn-info" to="/">
+                  Login
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
@@ -44,4 +51,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarComponent;
