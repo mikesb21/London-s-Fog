@@ -53,6 +53,7 @@ const LatestPostsComponent = () => {
       {posts.map((post) => {
         return (
           <PostCardComponent
+            key={post.title}
             title={post.title}
             description={post.description}
           />

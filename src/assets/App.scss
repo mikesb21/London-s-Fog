@@ -7,6 +7,7 @@ $third-background: #8ee4af;
 
 .App {
   text-align: center;
+  height: 100%;
 }
 
 .app-pad {
@@ -39,6 +40,7 @@ $third-background: #8ee4af;
 
 .container-carousel {
   padding: 2%;
+  width: 100%;
 }
 
 .container-posts {
@@ -67,4 +69,31 @@ $third-background: #8ee4af;
 
 .remove-link-decorations {
   text-decoration: none;
+}
+
+.title {
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+  font-weight: 600;
+}
+
+.button-primary {
+  border: solid 0.1275em $secondary-background !important;
+  margin: 2em 1em 3em 1em;
+  background-color: $primary-text !important;
+}
+
+.blog-component {
+  width: 100%;
+}
+
+.dropzone {
+  display: flex;
+  justify-content: center;
+  background-color: $primary-text;
+  height: 14em;
+}
+
+.container-woym {
+  height: 100vh !important;
 }

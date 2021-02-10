@@ -7,7 +7,9 @@ const NavbarComponent = () => {
     <div>
       <nav className="navbar navbar-expand-lg secondary-background">
         <div className="container-fluid">
-          <Link className="navbar-brand secondary-text">London's Fog</Link>
+          <Link className="navbar-brand secondary-text font-weight-bold" to="/">
+            London's Fog
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -24,24 +26,24 @@ const NavbarComponent = () => {
               <li className="nav-item">
                 <Link
                   className="nav-link secondary-text active"
+                  to="/whats-on-your-mind"
                   aria-current="page"
                 >
-                  Home
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link secondary-text" aria-current="page">
                   What's on your mind?
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link secondary-text" aria-current="page">
+                <Link
+                  className="nav-link secondary-text"
+                  aria-current="page"
+                  to="/"
+                >
                   Show me where I was
                 </Link>
               </li>
             </ul>
             <ul className="navbar-nav me-auto ml-auto mb-2 mb-lg-0">
-              <li>
+              <li className="nav-item">
                 <Link className="btn btn-info secondary-text" to="/">
                   Login
                 </Link>
